@@ -1,3 +1,8 @@
+provider "azurerm" {
+  features {}
+  version = ">=2.0.0"
+}
+
 resource "azurerm_resource_group" "RG-Terraform" {
   name     = "terraform-resource-group"
   location = "West Europe"
