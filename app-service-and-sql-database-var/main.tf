@@ -46,8 +46,8 @@ resource "azurerm_sql_server" "test" {
   resource_group_name          = azurerm_resource_group.RG-Terraform.name
   location                     = azurerm_resource_group.RG-Terraform.location
   version                      = "12.0"
-  administrator_login          = "sacha.wharton"
-  administrator_login_password = "4-v3ry-53cr37-p455w0rd"
+  administrator_login          = "sacha.wharton@outlook.com"
+  administrator_login_password = "12Lzrfr11@!"
 }
 
 resource "azurerm_sql_database" "test" {
